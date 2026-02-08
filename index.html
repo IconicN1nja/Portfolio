@@ -1,31 +1,241 @@
 <!DOCTYPE html>
-<html lang="en" style="background-color: #f4f4f4;">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adarsh</title>
+    <title>GDG Recruitment | Adarsh Srivastava</title>
     <style>
-        h1{
-            color: black;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
-        #maroon{
-            color:maroon;
+
+        body {
+            background: #f4f6f8;
+            color: #333;
+            line-height: 1.6;
         }
-        #black{
-            color: grey;
+
+        header {
+            background: linear-gradient(135deg, #1a73e8, #4285f4);
+            color: #fff;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        nav {
+            background: #fff;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #1a73e8;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #1a73e8;
+            font-size: 2rem;
+        }
+
+        .card {
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+
+        .card h3 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .skill-box {
+            background: #e8f0fe;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: 600;
+            color: #1a73e8;
+        }
+
+        footer {
+            background: #1a73e8;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            font-size: 0.9rem;
         }
     </style>
 </head>
-<body style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
-    <header align="center">
-        <img src="pfp.jpg" width="150" draggable="true"/>
-        <h1>Adarsh</h1> 
-        <p id="maroon"><b>A newbie in Web Devlopment</b></p>
+<body>
+
+    <header>
+        <h1>Adarsh Srivastava</h1>
+        <p>GDG Recruitment | B.Tech CSE Student | Tech & IoT Enthusiast</p>
+        <p style="margin-top:10px;font-size:1rem;opacity:0.9;">
+            📍 Gorakhpur | ✉️ adarsh.23.sri@gmail.com
+        </p>
+            <div style="margin-top:20px;">
+            <a href="https://www.linkedin.com/in/adarsh-srivastava-08947631a" target="_blank"
+               style="display:inline-block;margin:5px;padding:10px 22px;background:#0a66c2;color:#fff;text-decoration:none;border-radius:20px;font-weight:600;">
+               LinkedIn
+            </a>
+            <a href="https://leetcode.com/u/Icn_Ninja/" target="_blank"
+               style="display:inline-block;margin:5px;padding:10px 22px;background:#f89f1b;color:#fff;text-decoration:none;border-radius:20px;font-weight:600;">
+               LeetCode
+            </a>
+        </div>
     </header>
-    <hr />
-    <h3>About me-</h3>
-    <p id="black"><b><u>About me-</u><br /><br /></b>Hey guys this is Adarsh, and this is my first website where I will be sharing my journey of learning web devlopment and posting all of my projects.</p>
-    
-    <footer><a href="./contact.html">Contact me</a></footer>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="card">
+            <p>
+                I am <strong>Adarsh Srivastava</strong> from Gorakhpur, a Computer Science Engineering student who prefers
+                learning by doing and enjoys working on practical, real-world problems. I like staying active and
+                regularly play cricket, badminton, table tennis, and basketball. I also play the guitar.
+                <br><br>
+                In my free time, I work hands-on with everyday technology—building and upgrading PCs, testing
+                hardware components, troubleshooting issues, and tweaking systems to understand how small
+                changes impact performance. I am a motorsport enthusiast and closely follow Formula 1 and
+                Le Mans. I enjoy collaborating with others and experimenting rather than using systems as they are.
+            </p>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="card">
+            <h3>KIIT University</h3>
+            <p>
+                <strong>Bachelor of Technology (B.Tech) – Computer Science Engineering</strong><br>
+                2024 – 2028 (Currently Pursuing)
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>St. Joseph's School</h3>
+            <p>
+                <strong>Class XII (ICSE Board)</strong> – 2024<br>
+                Scored <strong>88%</strong>
+                <br><br>
+                <strong>Class X (ICSE Board)</strong> – 2022<br>
+                Scored <strong>86.5%</strong>
+            </p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="card">
+            <h3>Industrial Training – NIELIT</h3>
+            <p>
+                <strong>June 2025 – July 2025</strong><br>
+                Completed industrial training focused on <strong>IoT and Embedded Systems</strong>. Worked with
+                Raspberry Pi and NodeMCU, gaining hands-on experience in sensor interfacing, hardware–software
+                integration, and real-time system development. Earned certification as an <strong>IoT Developer</strong>.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>GDG Study Jams 2025</h3>
+            <p>
+                <strong>October 2025</strong><br>
+                Participated in GDG Study Jams 2025, gaining practical exposure to Google Developer tools,
+                guided learning modules, and collaborative learning environments.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="card">
+            <div class="skills">
+                <div class="skill-box">C, Java, Python</div>
+                <div class="skill-box">HTML & CSS</div>
+                <div class="skill-box">SQL & Shell Scripting</div>
+                <div class="skill-box">Data Structures & Algorithms</div>
+                <div class="skill-box">Embedded Systems & IoT</div>
+                <div class="skill-box">Arduino, Raspberry Pi, NodeMCU</div>
+                <div class="skill-box">Google Cloud Basics</div>
+                <div class="skill-box">Problem Solving (150+ LeetCode and 100+ on CodeChef)</div>
+                 <div class="skill-box">AWS Basics </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="card" style="text-align:center;">
+            <p>If you'd like to connect with me for GDG activities, collaborations, or tech discussions, feel free to reach out.</p>
+            <br>
+            <a href="mailto:adarsh.23.sri@gmail.com" 
+               style="display:inline-block;padding:12px 25px;background:#1a73e8;color:#fff;text-decoration:none;border-radius:25px;font-weight:600;margin:10px;">
+               Email Me
+            </a>
+            <br><br>
+            <a href="https://www.linkedin.com/in/adarsh-srivastava-08947631a" target="_blank"
+               style="display:inline-block;padding:10px 22px;background:#0a66c2;color:#fff;text-decoration:none;border-radius:25px;font-weight:600;margin:8px;">
+               LinkedIn Profile
+            </a>
+            <a href="https://leetcode.com/u/Icn_Ninja/" target="_blank"
+               style="display:inline-block;padding:10px 22px;background:#f89f1b;color:#fff;text-decoration:none;border-radius:25px;font-weight:600;margin:8px;">
+               LeetCode Profile
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Adarsh Srivastava | GDG Recruitment Website</p>
+    </footer>
+
 </body>
 </html>
